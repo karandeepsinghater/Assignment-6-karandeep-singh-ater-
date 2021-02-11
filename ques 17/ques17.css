@@ -1,0 +1,5 @@
+.holder { height:700px; 
+    width:700px;
+    margin: auto; 
+    }  
+    .holder #slideshow { max-height:300px; max-width:300px; margin: auto;}

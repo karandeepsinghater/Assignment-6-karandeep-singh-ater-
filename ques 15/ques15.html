@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+            
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+	
+</head>
+<body>
+    <p>Result will print in console</p>
+ <button id="ajax">ajax call</button>
+
+ <script type="text/javascript" 
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+	<script type="text/javascript">
+       $("#ajax").click(function (){
+       $.ajax({
+       url: "https://jsonplaceholder.typicode.com/posts",
+       async: false,
+       success: function (result){
+       console.log(result);
+       },
+       });
+       });
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+html,body
+{height:100%;
+width:100%;
+}
+
+html, body {
+    height : 100%;
+}
+
+
+.panel {
+    margin: auto;
+    width : 90%;
+    height : 50%;
+    color: white;
+    background : rgb(121, 63, 63);
+}
+
+ul li {
+    background : yellowgreen;
+    list-style:none;
+    display: inline;
+}
